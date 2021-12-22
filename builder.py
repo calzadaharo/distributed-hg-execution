@@ -16,4 +16,4 @@ os.environ['RAPHTORY_LEADER_ADDRESS']="1600"
 # Change the RAM asigned to Java (Scala)
 #os.environ["JAVA_OPTS"]="-XX:+UseShenandoahGC -XX:+UseStringDeduplication -Xms2G -Xmx2G -Xss128M"
 
-os.system('scala -classpath raphtory.jar:' + sys.argv[1] + " es.dit.upm.MultiRunner leader")
+os.system('scala -classpath raphtory.jar:' + sys.argv[1] + " es.dit.upm.MultiRunner builder")
