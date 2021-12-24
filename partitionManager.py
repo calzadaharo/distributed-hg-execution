@@ -11,7 +11,7 @@ os.environ['RAPHTORY_BIND_ADDRESS']="localhost"
 os.environ['RAPHTORY_BIND_PORT']="1604"
 
 os.environ['RAPHTORY_LEADER_ADDRESS']="localhost"
-os.environ['RAPHTORY_LEADER_ADDRESS']="1600"
+os.environ['RAPHTORY_LEADER_PORT']="1600"
 
 # Change the RAM asigned to Java (Scala)
 os.environ["JAVA_OPTS"]="-XX:+UseShenandoahGC -XX:+UseStringDeduplication -Xms2G -Xmx2G -Xss128M"
