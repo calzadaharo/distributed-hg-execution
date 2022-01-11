@@ -8,7 +8,7 @@ os.environ['RAPHTORY_BUILDERS_PER_SERVER']="1"
 os.environ['RAPHTORY_PARTITIONS_PER_SERVER']="1"
 
 os.environ['RAPHTORY_BIND_ADDRESS']="localhost"
-os.environ['RAPHTORY_BIND_PORT']="1605"
+os.environ['RAPHTORY_BIND_PORT']="1700"
 
 os.environ['RAPHTORY_LEADER_ADDRESS']="localhost"
 os.environ['RAPHTORY_LEADER_PORT']="1600"
